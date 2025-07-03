@@ -1,0 +1,193 @@
+# Microsoft Office Word
+*.doc filter=lfs diff=lfs merge=lfs -binary
+*.docx filter=lfs diff=lfs merge=lfs -binary
+*.dot filter=lfs diff=lfs merge=lfs -binary
+*.dotx filter=lfs diff=lfs merge=lfs -binary
+*.docm filter=lfs diff=lfs merge=lfs -binary
+*.dotm filter=lfs diff=lfs merge=lfs -binary
+# Microsoft Office Excel
+*.xls filter=lfs diff=lfs merge=lfs -binary
+*.xlsx filter=lfs diff=lfs merge=lfs -binary
+*.xlsm filter=lfs diff=lfs merge=lfs -binary
+*.xlt filter=lfs diff=lfs merge=lfs -binary
+*.xltx filter=lfs diff=lfs merge=lfs -binary
+*.xltm filter=lfs diff=lfs merge=lfs -binary
+*.xlsb filter=lfs diff=lfs merge=lfs -binary
+# Microsoft Office PowerPoint
+*.ppt filter=lfs diff=lfs merge=lfs -binary
+*.pptx filter=lfs diff=lfs merge=lfs -binary
+*.pps filter=lfs diff=lfs merge=lfs -binary
+*.ppsx filter=lfs diff=lfs merge=lfs -binary
+*.pot filter=lfs diff=lfs merge=lfs -binary
+*.potx filter=lfs diff=lfs merge=lfs -binary
+*.pptm filter=lfs diff=lfs merge=lfs -binary
+*.potm filter=lfs diff=lfs merge=lfs -binary
+*.ppsm filter=lfs diff=lfs merge=lfs -binary
+# OpenOffice/LibreOffice Writer
+*.odt filter=lfs diff=lfs merge=lfs -binary
+*.ott filter=lfs diff=lfs merge=lfs -binary
+# OpenOffice/LibreOffice Calc
+*.ods filter=lfs diff=lfs merge=lfs -binary
+*.ots filter=lfs diff=lfs merge=lfs -binary
+# OpenOffice/LibreOffice Impress
+*.odp filter=lfs diff=lfs merge=lfs -binary
+*.otp filter=lfs diff=lfs merge=lfs -binary
+# OpenOffice/LibreOffice Draw
+*.odg filter=lfs diff=lfs merge=lfs -binary
+*.otg filter=lfs diff=lfs merge=lfs -binary
+# OpenOffice/LibreOffice Math/Master
+*.odf filter=lfs diff=lfs merge=lfs -binary
+*.odm filter=lfs diff=lfs merge=lfs -binary
+# PDF
+*.pdf filter=lfs diff=lfs merge=lfs -binary
+# Microsoft Visio
+*.vsd filter=lfs diff=lfs merge=lfs -binary
+*.vsdx filter=lfs diff=lfs merge=lfs -binary
+# Microsoft Project
+*.mpp filter=lfs diff=lfs merge=lfs -binary
+# Microsoft Access
+*.mdb filter=lfs diff=lfs merge=lfs -binary
+*.accdb filter=lfs diff=lfs merge=lfs -binary
+# Sonstige Binärdateien
+*.bin filter=lfs diff=lfs merge=lfs -binary
+*.exe filter=lfs diff=lfs merge=lfs -binary
+*.dll filter=lfs diff=lfs merge=lfs -binary
+*.so filter=lfs diff=lfs merge=lfs -binary
+
+# Bilder
+*.png filter=lfs diff=lfs merge=lfs -binary
+*.jpg filter=lfs diff=lfs merge=lfs -binary
+*.jpeg filter=lfs diff=lfs merge=lfs -binary
+*.gif filter=lfs diff=lfs merge=lfs -binary
+*.tif filter=lfs diff=lfs merge=lfs -binary
+*.tiff filter=lfs diff=lfs merge=lfs -binary
+*.bmp filter=lfs diff=lfs merge=lfs -binary
+*.ico filter=lfs diff=lfs merge=lfs -binary
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -binary
+*.psd filter=lfs diff=lfs merge=lfs -binary
+*.xcf filter=lfs diff=lfs merge=lfs -binary
+*.ai filter=lfs diff=lfs merge=lfs -binary
+*.eps filter=lfs diff=lfs merge=lfs -binary
+
+# Weitere Bildformate
+*.cr2 filter=lfs diff=lfs merge=lfs -binary
+*.nef filter=lfs diff=lfs merge=lfs -binary
+*.arw filter=lfs diff=lfs merge=lfs -binary
+*.dng filter=lfs diff=lfs merge=lfs -binary
+*.raw filter=lfs diff=lfs merge=lfs -binary
+*.indd filter=lfs diff=lfs merge=lfs -binary
+*.sketch filter=lfs diff=lfs merge=lfs -binary
+*.heic filter=lfs diff=lfs merge=lfs -binary
+
+# Audio/Video
+*.mp3 filter=lfs diff=lfs merge=lfs -binary
+*.wav filter=lfs diff=lfs merge=lfs -binary
+*.ogg filter=lfs diff=lfs merge=lfs -binary
+*.flac filter=lfs diff=lfs merge=lfs -binary
+*.aac filter=lfs diff=lfs merge=lfs -binary
+*.mp4 filter=lfs diff=lfs merge=lfs -binary
+*.mov filter=lfs diff=lfs merge=lfs -binary
+*.avi filter=lfs diff=lfs merge=lfs -binary
+*.mkv filter=lfs diff=lfs merge=lfs -binary
+*.webm filter=lfs diff=lfs merge=lfs -binary
+
+# Weitere Audio/Video
+*.aiff filter=lfs diff=lfs merge=lfs -binary
+*.aif filter=lfs diff=lfs merge=lfs -binary
+*.alac filter=lfs diff=lfs merge=lfs -binary
+*.m4a filter=lfs diff=lfs merge=lfs -binary
+*.mts filter=lfs diff=lfs merge=lfs -binary
+*.m2ts filter=lfs diff=lfs merge=lfs -binary
+*.3gp filter=lfs diff=lfs merge=lfs -binary
+*.3g2 filter=lfs diff=lfs merge=lfs -binary
+*.flv filter=lfs diff=lfs merge=lfs -binary
+*.f4v filter=lfs diff=lfs merge=lfs -binary
+*.rm filter=lfs diff=lfs merge=lfs -binary
+*.rmvb filter=lfs diff=lfs merge=lfs -binary
+*.vob filter=lfs diff=lfs merge=lfs -binary
+*.asf filter=lfs diff=lfs merge=lfs -binary
+*.wmv filter=lfs diff=lfs merge=lfs -binary
+
+# Archive
+*.zip filter=lfs diff=lfs merge=lfs -binary
+*.tar filter=lfs diff=lfs merge=lfs -binary
+*.gz filter=lfs diff=lfs merge=lfs -binary
+*.bz2 filter=lfs diff=lfs merge=lfs -binary
+*.7z filter=lfs diff=lfs merge=lfs -binary
+*.rar filter=lfs diff=lfs merge=lfs -binary
+
+# Weitere Archive/Container
+*.tar.gz filter=lfs diff=lfs merge=lfs -binary
+*.tar.bz2 filter=lfs diff=lfs merge=lfs -binary
+*.tar.xz filter=lfs diff=lfs merge=lfs -binary
+*.lz filter=lfs diff=lfs merge=lfs -binary
+*.lzma filter=lfs diff=lfs merge=lfs -binary
+*.xz filter=lfs diff=lfs merge=lfs -binary
+*.cab filter=lfs diff=lfs merge=lfs -binary
+*.cpio filter=lfs diff=lfs merge=lfs -binary
+*.ar filter=lfs diff=lfs merge=lfs -binary
+*.rpm filter=lfs diff=lfs merge=lfs -binary
+*.deb filter=lfs diff=lfs merge=lfs -binary
+*.dmg filter=lfs diff=lfs merge=lfs -binary
+
+# CAD/3D/Geo
+*.stl filter=lfs diff=lfs merge=lfs -binary
+*.obj filter=lfs diff=lfs merge=lfs -binary
+*.fbx filter=lfs diff=lfs merge=lfs -binary
+*.dwg filter=lfs diff=lfs merge=lfs -binary
+*.dxf filter=lfs diff=lfs merge=lfs -binary
+*.gpx filter=lfs diff=lfs merge=lfs -binary
+*.shp filter=lfs diff=lfs merge=lfs -binary
+
+# Weitere 3D/CAD/Geo
+*.blend filter=lfs diff=lfs merge=lfs -binary
+*.3ds filter=lfs diff=lfs merge=lfs -binary
+*.max filter=lfs diff=lfs merge=lfs -binary
+*.skp filter=lfs diff=lfs merge=lfs -binary
+*.iges filter=lfs diff=lfs merge=lfs -binary
+*.igs filter=lfs diff=lfs merge=lfs -binary
+*.step filter=lfs diff=lfs merge=lfs -binary
+*.stp filter=lfs diff=lfs merge=lfs -binary
+*.las filter=lfs diff=lfs merge=lfs -binary
+*.laz filter=lfs diff=lfs merge=lfs -binary
+
+# Fonts
+*.ttf filter=lfs diff=lfs merge=lfs -binary
+*.otf filter=lfs diff=lfs merge=lfs -binary
+*.woff filter=lfs diff=lfs merge=lfs -binary
+*.woff2 filter=lfs diff=lfs merge=lfs -binary
+
+# Sonstige große/binary Formate
+*.iso filter=lfs diff=lfs merge=lfs -binary
+*.apk filter=lfs diff=lfs merge=lfs -binary
+*.ipa filter=lfs diff=lfs merge=lfs -binary
+*.jar filter=lfs diff=lfs merge=lfs -binary
+*.dat filter=lfs diff=lfs merge=lfs -binary
+*.pkl filter=lfs diff=lfs merge=lfs -binary
+*.joblib filter=lfs diff=lfs merge=lfs -binary
+*.h5 filter=lfs diff=lfs merge=lfs -binary
+*.pt filter=lfs diff=lfs merge=lfs -binary
+*.ckpt filter=lfs diff=lfs merge=lfs -binary
+*.pb filter=lfs diff=lfs merge=lfs -binary
+*.npz filter=lfs diff=lfs merge=lfs -binary
+*.npy filter=lfs diff=lfs merge=lfs -binary
+*.sqlite filter=lfs diff=lfs merge=lfs -binary
+*.db filter=lfs diff=lfs merge=lfs -binary
+
+# Weitere Datenbanken/Backups
+*.bak filter=lfs diff=lfs merge=lfs -binary
+*.bkp filter=lfs diff=lfs merge=lfs -binary
+*.dump filter=lfs diff=lfs merge=lfs -binary
+*.rdb filter=lfs diff=lfs merge=lfs -binary
+*.parquet filter=lfs diff=lfs merge=lfs -binary
+*.feather filter=lfs diff=lfs merge=lfs -binary
+*.arrow filter=lfs diff=lfs merge=lfs -binary
+
+# Sonstige
+*.swf filter=lfs diff=lfs merge=lfs -binary
+*.msi filter=lfs diff=lfs merge=lfs -binary
+*.img filter=lfs diff=lfs merge=lfs -binary
+*.vmdk filter=lfs diff=lfs merge=lfs -binary
+*.vdi filter=lfs diff=lfs merge=lfs -binary
+*.qcow2 filter=lfs diff=lfs merge=lfs -binary
