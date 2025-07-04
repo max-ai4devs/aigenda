@@ -119,7 +119,7 @@ function startTimer() {
 
 function playDoorbellSound() {
   try {
-    const audio = new Audio(import.meta.env.BASE_URL + 'doorbell.mp3');
+    const audio = new Audio(import.meta.env.BASE_URL + 'double-doorbell.mp3');
     audio.play();
   } catch (error) {
     console.error('Failed to play doorbell sound:', error);

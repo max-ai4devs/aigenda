@@ -7,7 +7,7 @@
 <script setup lang="ts">
 const playSound = () => {
 
-  const audio = new Audio(import.meta.env.BASE_URL + 'doorbell.mp3');
+  const audio = new Audio(import.meta.env.BASE_URL + 'double-doorbell.mp3');
   audio.play().catch((err) => {
     console.error('Audio could not be played:', err);
   });
