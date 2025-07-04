@@ -81,7 +81,7 @@
 *.heic filter=lfs diff=lfs merge=lfs -binary
 
 # Audio/Video
-*.mp3 filter=lfs diff=lfs merge=lfs -binary
+#*.mp3 filter=lfs diff=lfs merge=lfs -binary
 *.wav filter=lfs diff=lfs merge=lfs -binary
 *.ogg filter=lfs diff=lfs merge=lfs -binary
 *.flac filter=lfs diff=lfs merge=lfs -binary
